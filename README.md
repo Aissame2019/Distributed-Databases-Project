@@ -22,3 +22,10 @@ To get started with Souk Jemla, follow these steps:
    ```shell
    git clone https://github.com/yourusername/souk-jemla.git
    cd souk-jemla
+
+2. **Simulation images**:
+   ![Login GUI](Test-app-img/soukJemla_Gui.png)
+   ![Register GUI](Test-app-img/Register.png)
+   ![Invalid Login](Test-app-img/invalid.png)
+   ![User GUI](Test-app-img/agadir.png)
+   ![Add into order](Test-app-img/add.png)
