@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#click" prefHeight="215.0" prefWidth="225.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controllers.ItemController">
+   <children>
+      <VBox layoutX="-1.0" prefHeight="215.0" prefWidth="225.0">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="225.0">
+               <children>
+                  <Label fx:id="productName" prefHeight="50.0" prefWidth="130.0" style="-fx-background-color: #ADFF2F;" text="  Avocado">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="price" prefHeight="50.0" prefWidth="96.0" style="-fx-background-color: #ADFF2F;" text="  200 DH">
+                     <font>
+                        <Font name="Cambria Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ImageView fx:id="imageItem" fitHeight="165.0" fitWidth="226.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../asset/avocado.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
